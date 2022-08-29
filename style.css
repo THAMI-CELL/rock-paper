@@ -1,0 +1,135 @@
+
+
+
+
+
+body {
+    background-image: linear-gradient(rgba(210, 215, 211,0.45), rgba(238, 238, 238,0.7)), url(./images/welcome.jpg);
+    background-size: 100%;
+    
+    min-height: 100vh;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* //////////////////////// Containers */
+  
+  .container-fluid {
+    background: transparent;
+    border-radius: 50px;
+    max-width: 80%;
+    min-width: 80%;
+    text-align: center;
+    padding: 0%;
+    
+  }
+  
+  .header {
+    text-align: center;
+    margin: 2%;
+    max-width: 100%;
+    min-width: 100%;
+    
+  }
+  
+  .scoreboard {
+    background: #6a7379d3; 
+    border-radius: 0px 0px 50px 50px;
+    max-width: 100%;
+    min-width: 100%;
+    margin: 0%;
+    padding: 3%;
+  }
+  /* //////////////////////// Buttons*/
+  
+  #rock, #paper, #scissor {
+    padding: 2%;
+    text-align: center;
+    margin: 5%;
+    border-radius: 20px;
+    border: none;
+    background: #7cfc00;
+    min-width: fit-content;
+    max-width: fit-content;
+  }
+  
+  #rock:hover, #paper:hover, #scissor:hover {
+    border: 3px solid #154360;
+    background: #EEE;
+    cursor: pointer;
+  }
+  
+  /* //////////////////////// Buttons Clicked */
+  
+  .win {
+    background-color: #7DCEA0;
+    border: 3px solid #922B21;
+  
+  }
+  
+  .lose {
+    background-color: #D98880;
+    border: 3px solid #4D5656;
+  }
+  
+  .tie {
+    background: #BFC9CA;
+    border: 3px solid #4D5656;
+  }
+  
+  
+  /* ///////////////////////// Text */
+  
+  h1, h2, h3, p, li {
+    font-family: "Montserrat";
+    color: #154360;
+  }
+  
+  h1 {
+    font-weight: 900;
+    color: #FF0000;
+  }
+  
+   #message {
+    margin: 3%;
+    font-weight: 900;
+    color: #FF0000;
+    background-color: rgba(238, 238, 238, 0.575);
+    padding: auto;
+  }
+  
+  .player {
+    color: #7cfc00;
+    font-weight: bolder;
+  }
+  h3 {
+    font-size: 15pt;
+    margin: 10px;
+  }
+  
+  h4 {
+    margin: 0px 0px 20px 0px;
+  }
+  
+  i.icons {
+    font-size: 30pt;
+    color: #f39200;
+  }
+  
+  .scores {
+    color:  #FF0000;
+  }
+  .col-3 {
+    max-width: 100%;
+    min-width: 100%;
+    background-color: transparent;
+  }
+
+  @media screen and (max-width: 500px) {
+    .col-3 {
+        display: block;
+    }
+    
+  }
